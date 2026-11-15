@@ -19,7 +19,7 @@ a valid username and password.
 | `FOUNDRY_USERNAME`, `FOUNDRY_PASSWORD` | Your foundryvtt.com account. Used to download Foundry and fetch your license. |
 | `FOUNDRY_RELEASE_URL` | Instead of your account, a timed download link from your [licenses page](https://foundryvtt.com/me/licenses) (choose "Node.js", then "Timed URL"). |
 | `FOUNDRY_VERSION` | The Foundry release to install, such as `14.370`. The image is picked to match it. A world cannot be opened by an older release than the one that last saved it. |
-| `FOUNDRY_ADMIN_KEY` | The password for Foundry's setup screen. Set one: the server is public. |
+| `FOUNDRY_ADMIN_KEY` | The password for Foundry's setup screen, generated when you deploy. It is only applied on first start: change it later in Foundry's Configuration tab. |
 
 Every option of the image is listed in its
 [documentation](https://github.com/felddy/foundryvtt-docker#environment-variables).
